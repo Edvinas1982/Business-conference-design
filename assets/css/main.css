@@ -351,6 +351,23 @@ template {
   font-family: 'Space Grotesk', sans-serif;
 }
 
+.features-buyButton {
+  display: inline-block;
+  font-size: 0.875rem;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 4px;
+  background: #EB5A43;
+  color: #FFFFFF;
+  -webkit-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -361,6 +378,7 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding-bottom: 64px;
 }
 
 header .header-left p {
@@ -410,5 +428,50 @@ header .header-right a {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 12px;
+}
+
+.features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.features .features-left__tittle {
+  font-weight: 400;
+  font-size: 1.1875rem;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #EB5A43;
+  padding-top: 50px;
+}
+
+.features .features-left__heading {
+  font-weight: 700;
+  font-size: 4.5rem;
+  line-height: 80px;
+  letter-spacing: -2px;
+  color: #333333;
+}
+
+.features .features-left p {
+  margin: 20px 0;
+}
+
+.features .features-left__text {
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 32px;
+  color: #333333;
+  padding-right: 57px;
+  margin-bottom: 30px;
+}
+
+.bottom-line {
+  width: 100%;
+  height: 2px;
+  background: #111111;
+  margin-top: 144px;
+  margin-bottom: 30px;
 }
 /*# sourceMappingURL=main.css.map */
