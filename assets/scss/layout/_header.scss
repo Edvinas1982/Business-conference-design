@@ -1,0 +1,48 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    .header-left {
+        p {
+            font-family: 'Space Grotesk';
+            font-style: normal;
+            font-weight: 700;
+            font-size: rem(40);
+            line-height: 48px;
+            color: #333333;
+        }
+    }
+    .header-center {
+        .navigation {
+            .navigation-menu {
+                display: flex;
+                list-style-type: none;
+            }
+            &__link {
+                text-decoration: none;
+                font-weight: 400;
+                font-size: rem(16);
+                line-height: 32px;
+                color: #333333;
+                padding: 0 30px;
+            }
+        }
+    }
+    .header-right {
+        a {
+            display: inline-block;
+            font-size: rem(14);
+            line-height: 18px;
+            text-align: center;
+            text-transform: uppercase;
+            padding: 15px 30px;
+            font-weight: 700;
+            text-decoration: none;
+            border: 1px solid rgba(17, 17, 17, 0.303074);
+            border-radius: 4px;
+            color: #111111;
+            transition: all ease 0.3s;
+        }
+    }
+
+}

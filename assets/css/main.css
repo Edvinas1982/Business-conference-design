@@ -5,6 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -344,5 +345,70 @@ template {
      */
 [hidden] {
   display: none;
+}
+
+* {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .header-left p {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 48px;
+  color: #333333;
+}
+
+header .header-center .navigation .navigation-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+header .header-center .navigation__link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 32px;
+  color: #333333;
+  padding: 0 30px;
+}
+
+header .header-right a {
+  display: inline-block;
+  font-size: 0.875rem;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  font-weight: 700;
+  text-decoration: none;
+  border: 1px solid rgba(17, 17, 17, 0.303074);
+  border-radius: 4px;
+  color: #111111;
+  -webkit-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 12px;
 }
 /*# sourceMappingURL=main.css.map */
