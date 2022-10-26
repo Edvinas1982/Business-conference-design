@@ -368,6 +368,12 @@ template {
   transition: all ease 0.3s;
 }
 
+.features-buyButton:hover {
+  background: #FFFFFF;
+  color: #EB5A43;
+  border: 1px solid rgba(235, 90, 67, 0.303074);
+}
+
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -447,7 +453,12 @@ header .header-center .navigation__link {
   padding: 0 30px;
 }
 
-header .header-right a {
+header .header-center .navigation__link:hover {
+  color: #000000;
+  font-weight: 700;
+}
+
+header .header-right .button-buy {
   display: inline-block;
   font-size: 0.875rem;
   line-height: 18px;
@@ -462,6 +473,11 @@ header .header-right a {
   -webkit-transition: all ease 0.3s;
   -o-transition: all ease 0.3s;
   transition: all ease 0.3s;
+}
+
+header .header-right .button-buy:hover {
+  color: #ffffff;
+  background: #111111;
 }
 
 .container {
