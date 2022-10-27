@@ -4,8 +4,10 @@ footer {
     justify-content: space-between;
     .footer-card {
         display: flex;
+        width: 33.33%;
         &__image {
-            margin: auto;
+            margin-bottom: auto;
+            margin-top: auto;
         }
         h4 {
             font-weight: 700;

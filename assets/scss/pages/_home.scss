@@ -22,9 +22,11 @@
             line-height: 80px;
             letter-spacing: -2px;
             color: #333333;
+            margin: 20px 0;
+            padding-right: 30px;
         }
         p {
-            margin: 20px 0;
+            margin: 20px 0 30px 0;
         }
         &__text {
             font-weight: 400;
@@ -32,7 +34,6 @@
             line-height: 32px;
             color: #333333;
             padding-right: 57px;
-            margin-bottom: 30px;
         }
     }
 }
