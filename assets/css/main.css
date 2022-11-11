@@ -1,3 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap");
+@media only screen and (min-width: 960px) {
+  .hamburger-menu {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .header-right,
+  .header-center {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  #features {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  #features-left,
+  #features-right,
+  .speaker-image {
+    width: 100%;
+  }
+  #bottom-line {
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #container {
+    padding: 0px 23px;
+  }
+  h3 {
+    padding-top: 20px;
+  }
+  #features-left__heading,
+  #features-left__text {
+    padding-right: 0;
+  }
+  .footer {
+    display: block;
+    padding-left: 20px;
+  }
+  .footer .footer-card {
+    width: 100%;
+  }
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -5,7 +61,6 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -453,6 +508,9 @@ header .header-center .navigation__link {
   line-height: 32px;
   color: #333333;
   padding: 0 30px;
+  -webkit-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  transition: all ease 0.3s;
 }
 
 header .header-center .navigation__link:hover {
@@ -493,6 +551,11 @@ header .header-right .button-buy:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
+}
+
+.features .features-left {
+  width: 50%;
 }
 
 .features .features-left__tittle {
@@ -525,6 +588,10 @@ header .header-right .button-buy:hover {
   line-height: 32px;
   color: #333333;
   padding-right: 57px;
+}
+
+.features .features-right {
+  width: 50%;
 }
 
 .bottom-line {

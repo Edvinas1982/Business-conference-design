@@ -6,7 +6,9 @@
 }
 .features {
     display: flex;
+    width: 100%;
     .features-left {
+        width: 50%;
         &__tittle {
             font-weight: 400;
             font-size: rem(19);
@@ -35,6 +37,9 @@
             color: #333333;
             padding-right: 57px;
         }
+    }
+    .features-right {
+        width: 50%;
     }
 }
 .bottom-line {
