@@ -1,0 +1,11 @@
+.hiden-nav {
+    background-color: aqua;
+    padding: 10px 0;
+    position: fixed;
+    width: 50%;
+    left: -100%;
+    transition: left ease 0.4s;
+    &__toggle {
+        
+    }
+}
