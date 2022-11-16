@@ -541,7 +541,7 @@ header .header-right .button-buy:hover {
 }
 
 .hiden-nav {
-  background-color: aqua;
+  background-color: white;
   width: 20%;
   top: 80px;
   position: fixed;
@@ -551,7 +551,11 @@ header .header-right .button-buy:hover {
   transition: right ease 0.3s;
 }
 
-.hiden-nav__toggle:active + .hiden-nav {
+.hiden-nav__toggle {
+  display: none;
+}
+
+.hiden-nav__toggle:checked + .hiden-nav {
   right: 1%;
 }
 
@@ -559,7 +563,7 @@ header .header-right .button-buy:hover {
   text-decoration: none;
   display: block;
   text-align: center;
-  padding: 10px 15px;
+  padding: 5px 10px;
 }
 
 .container {

@@ -1,12 +1,13 @@
 .hiden-nav {
-    background-color: aqua;
+    background-color: white;
     width: 20%;
     top: 80px;
     position: fixed;
     right: -100%;
     transition: right ease 0.3s;
     &__toggle {
-        &:active {
+        display: none;
+        &:checked {
             + .hiden-nav {
                 right: 1%;
             }
@@ -16,6 +17,6 @@
         text-decoration: none;
         display: block;
         text-align: center;
-        padding: 10px 15px;
+        padding: 5px 10px;
     }
 }
