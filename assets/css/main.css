@@ -540,6 +540,28 @@ header .header-right .button-buy:hover {
   background: #111111;
 }
 
+.hiden-nav {
+  background-color: aqua;
+  width: 20%;
+  top: 80px;
+  position: fixed;
+  right: -100%;
+  -webkit-transition: right ease 0.3s;
+  -o-transition: right ease 0.3s;
+  transition: right ease 0.3s;
+}
+
+.hiden-nav__toggle:active + .hiden-nav {
+  right: 1%;
+}
+
+.hiden-nav__link {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 10px 15px;
+}
+
 .container {
   width: 100%;
   max-width: 1200px;
